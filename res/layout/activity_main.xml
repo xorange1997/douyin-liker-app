@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <!-- 标题 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🥯 抖音点赞助手"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="独立应用 · 无需 Root"
+        android:textSize="14sp"
+        android:textColor="#666666"
+        android:layout_marginBottom="32dp" />
+
+    <!-- 状态显示 -->
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="状态：检查中..."
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:background="#F5F5F5"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 评论状态 -->
+    <TextView
+        android:id="@+id/commentStatusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="💬 评论：关闭"
+        android:textSize="14sp"
+        android:padding="12dp"
+        android:background="#FFF3E0"
+        android:layout_marginBottom="24dp" />
+
+    <!-- 点赞数量输入 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点赞数量"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/likeCountInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="输入点赞数量"
+        android:text="100"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="@android:drawable/edit_text"
+        android:layout_marginBottom="24dp" />
+
+    <!-- 开始按钮 -->
+    <Button
+        android:id="@+id/startButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="▶️ 开始点赞"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp" />
+
+    <!-- 停止按钮 -->
+    <Button
+        android:id="@+id/stopButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="⏹️ 停止"
+        android:textSize="18sp"
+        android:background="#F44336"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp" />
+
+    <!-- 评论开关按钮 -->
+    <Button
+        android:id="@+id/commentButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="💬 开启评论"
+        android:textSize="16sp"
+        android:background="#2196F3"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp" />
+
+    <!-- 评论管理按钮 -->
+    <Button
+        android:id="@+id/manageCommentButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="📝 管理评论语料"
+        android:textSize="16sp"
+        android:background="#9C27B0"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp" />
+
+    <!-- 设置按钮 -->
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="⚙️ 无障碍设置"
+        android:textSize="16sp"
+        android:visibility="gone"
+        android:layout_marginBottom="24dp" />
+
+    <!-- 说明 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用说明："
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. 开启无障碍服务\n2. 打开抖音 APP\n3. 输入点赞数量\n4. 点击开始"
+        android:textSize="14sp"
+        android:lineSpacingExtra="4dp"
+        android:textColor="#666666" />
+
+    <!-- 评论说明 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="💬 评论功能：每 10 个视频自动评论一次，可自定义评论语料"
+        android:textSize="12sp"
+        android:textColor="#2196F3"
+        android:layout_marginTop="12dp"
+        android:padding="8dp"
+        android:background="#E3F2FD" />
+
+    <!-- 警告 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="⚠️ 温馨提示：请合理使用，避免频繁操作导致账号异常"
+        android:textSize="12sp"
+        android:textColor="#FF9800"
+        android:layout_marginTop="24dp"
+        android:gravity="center" />
+
+</LinearLayout>

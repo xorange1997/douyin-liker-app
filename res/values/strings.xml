@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">🥯 抖音点赞助手</string>
+    <string name="accessibility_service_description">抖音自动点赞助手，帮助自动点赞抖音视频。开启后可自动识别并点击爱心按钮。</string>
+    <string name="start">开始</string>
+    <string name="stop">停止</string>
+    <string name="settings">设置</string>
+</resources>
